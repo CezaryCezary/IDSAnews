@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDSAnews.WebUI", "IDSAnews.WebUI\IDSAnews.WebUI.csproj", "{9B5D63DF-386D-45F0-B2EF-A66AEDFA3844}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDSAnews.Domain", "IDSAnews.Domain\IDSAnews.Domain.csproj", "{49C0D72D-58CB-4E6B-8742-BC586DB4895E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDSAnews.UnitTests", "IDSAnews.UnitTests\IDSAnews.UnitTests.csproj", "{D3F28399-A04B-405E-8519-7B5230909D7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B5D63DF-386D-45F0-B2EF-A66AEDFA3844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B5D63DF-386D-45F0-B2EF-A66AEDFA3844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B5D63DF-386D-45F0-B2EF-A66AEDFA3844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B5D63DF-386D-45F0-B2EF-A66AEDFA3844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C0D72D-58CB-4E6B-8742-BC586DB4895E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C0D72D-58CB-4E6B-8742-BC586DB4895E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C0D72D-58CB-4E6B-8742-BC586DB4895E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C0D72D-58CB-4E6B-8742-BC586DB4895E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F28399-A04B-405E-8519-7B5230909D7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F28399-A04B-405E-8519-7B5230909D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F28399-A04B-405E-8519-7B5230909D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F28399-A04B-405E-8519-7B5230909D7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
