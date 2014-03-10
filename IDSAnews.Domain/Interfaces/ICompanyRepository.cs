@@ -1,7 +1,7 @@
 ﻿using IDSAnews.Domain.Entities;
 using System.Linq;
 
-namespace IDSAnews.Domain.Abstract
+namespace IDSAnews.Domain.Interfaces
 {
     public interface ICompanyRepository
     {
