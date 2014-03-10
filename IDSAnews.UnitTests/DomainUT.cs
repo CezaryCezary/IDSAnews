@@ -10,7 +10,7 @@ namespace IDSAnews.UnitTests
         [TestMethod]
         public void ModelInitialization()
         {
-            PrivateObject modelType = new PrivateObject(typeof(MockupModel));
+            PrivateObject modelType = new PrivateObject(typeof(MockModel));
             var companiesData = modelType.GetProperty("Companies");
             var informationData = modelType.GetProperty("Informations");
             Assert.IsNotNull(companiesData);

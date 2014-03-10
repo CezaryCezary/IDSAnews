@@ -9,10 +9,10 @@ using IDSAnews.Domain.Entities;
 
 namespace IDSAnews.Domain
 {
-    public class Model : DbContext
+    public class Model : DbContext, IModelContext
     {
-        public Repository<Company> Companies;
-        public Repository<Information> Informations;
+        public Repository<Company> Companies {get;set;}
+        public Repository<Information> Informations { get; set; }
 
         public Model()
         {
